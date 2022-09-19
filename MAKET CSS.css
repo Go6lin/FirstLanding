@@ -1,0 +1,549 @@
+@media screen {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .specialH1 {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .generalContainer {
+        background-color: #ffffff;
+        width: 1445px;
+        height: 4759px;
+        margin: 0 auto;
+    }
+    .container {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #cccccc;
+        width: 945px;
+        margin: 0 auto;
+
+    }
+    .figmaLogo {
+
+        margin-bottom: 15px;
+        width: 83px;
+        height: 83px;
+    }
+    .mainInform {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        width: 945px;
+        margin: 0 auto;
+    }
+    .mainInformIMG {
+       background-image: url("figmaExports/BSPP2266.png");
+        margin-left: 250px;
+        width: 945px;
+        height: 388px;
+    }
+    .rotateText {
+        display: flex;
+        transform: rotate(270deg);
+        margin-top: 82px;
+        height: 20px;
+    }
+    .greyRotTex {
+        color: #cccccc;
+    }
+    .whiteDivOne {
+        height: 750px;
+    }
+    .greyDivOne {
+        height: 506px;
+        background-color: #F6F6F6;
+    }
+    .greyDivTwo {
+        height: 2253px;
+        background-color: #F6F6F6;
+    }
+    .whiteDivTwo {
+        height: 506px;
+    }
+    .whiteDivThree {
+        height: 506px;
+    }
+    .PSfront {
+        width: 83px;
+        height: 83px;
+    }
+    .PSback {
+        width: 89px;
+        height: 89px;
+        background-image: url("figmaExports/PSback.png");
+        background-repeat: no-repeat;
+    }
+    .AIfront {
+        width: 83px;
+        height: 83px;
+    }
+    .AIback {
+        width: 89px;
+        height: 89px;
+        background-image: url("figmaExports/PSback.png");
+        background-repeat: no-repeat;
+    }
+    .AEfront {
+        width: 83px;
+        height: 83px;
+    }
+    .AEback {
+        width: 89px;
+        height: 89px;
+        background-image: url("figmaExports/PSback.png");
+        background-repeat: no-repeat;
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .uxulclass {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 18px;
+        margin-top: 52px;
+    }
+    .Topics {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 40px;
+    }
+    .Text {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 22px;
+        line-height: 1px;
+        margin-bottom: 10px;
+    }
+    .TextAM {
+        margin-left: 500px;
+        margin-right: 500px;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .skillsVisual {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 250px;
+        margin-right: 200px;
+    }
+    .centerSkills {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainIMG {
+        width: 945px;
+        height: 388px;
+    }
+    .portfolioIMG {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 937px;
+        height: 510px;
+    }
+    .portfolioText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    .skillsText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 16px;
+        line-height: 1px;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    }
+    .skillsTextFigma {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 16px;
+        line-height: 1px;
+        margin-top: 7px;
+        margin-bottom: 19px;
+    }
+    .stars {
+        width: 26px;
+        height: 26px;
+        margin-top: 30px;
+    }
+    .sendMessage {
+        background-image: url("figmaExports/BlackBack.png");
+        background-repeat: no-repeat;
+        width: 182px;
+        height: 42px;
+        margin-top: 50px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 18px;
+        line-height: 7px;
+        color: #ffffff;
+    }
+    .sendMessageText {
+        margin-left: 30px;
+    }
+    .footerText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 18px;
+        color: #cccccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 5px;
+    }
+    .logos {
+        margin-top: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 60px;
+        height: 60px;
+    }
+    .textSpace {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .burger{
+        display: none;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 480px)
+ {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .generalContainer {
+        background-color: #ffffff;
+        width: 1445px;
+        height: 10700px;
+    }
+    .container {
+        display: none;
+    }
+    .mainInform {
+        display: block;
+    }
+    .uxulclass {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 50px;
+        line-height: 80px;
+        margin-top: 52px;
+    }
+    .specialH1 {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 150px;
+        line-height: 150px;
+    }
+    .whiteDivOne {
+        height: 2300px;
+    }
+    .whiteDivTwo {
+        height: 3100px;
+    }
+    .greyDivOne {
+        height: 1100px;
+        background-color: #F6F6F6;
+    }
+    .greyDivTwo {
+        height: 3000px;
+        background-color: #F6F6F6;
+    }
+    .rotateText {
+        display: none;
+        transform: rotate(270deg);
+        margin-top: 82px;
+        height: 20px;
+    }
+    .mainInformIMG {
+        background-image: url("figmaExports/BSPP226.png");
+        margin-left: 250px;
+        background-size: 100%;
+        width: 950px;
+        height: 1400px;
+    }
+    .skillsVisual {
+        display: block;
+    }
+    .skillsTextFigma {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 40px;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .centerSkills {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 18px;
+    }
+    .center {
+        padding-top: 50px;
+    }
+    .centerSkills {
+        margin-right: 30px;
+    }
+    .Topics {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 100px;
+    }
+    .Text {
+        margin-left: 30px;
+        font-size: 60px;
+    }
+    .TextAM {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .PSfront {
+        width: 300px;
+        height: 300px;
+    }
+    .PSback {
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+        background-image: url("figmaExports/PSback.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .AIfront {
+        width: 300px;
+        height: 300px;
+    }
+    .AIback {
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+        background-image: url("figmaExports/AIback.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .AEfront {
+        width: 300px;
+        height: 300px;
+    }
+    .AEback {
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+        background-image: url("figmaExports/AEback.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .figmaLogo {
+        margin-top: 150px;
+        width: 300px;
+        height: 300px;
+    }
+    .stars {
+        width: 75px;
+        height: 75px;
+        margin-top: 30px;
+    }
+    .skillsText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 40px;
+        line-height: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 1px;
+    }
+    .portfolioText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        margin-left: 70px;
+        font-size: 65px;
+        text-decoration: underline;
+    }
+    .portfolioIMG {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 1200px;
+        height: 650px;
+    }
+    .sendMessage {
+        background-image: url("figmaExports/BlackBack.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 400px;
+        height: 150px;
+        margin-top: 50px;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 48px;
+        line-height: 7px;
+        color: #ffffff;
+    }
+    .sendMessageText {
+        margin-left: 42px;
+    }
+    .logos {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 150px;
+        height: 150px;
+    }
+    .footerText {
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 60px;
+        color: #cccccc;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 5px;
+    }
+    .burger {
+        display: block;
+        margin-top: 120px;
+        margin-left: 450px;
+        width: 100px;
+        height: 75px;
+        background-image: url("figmaExports/Burger.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .burgerContain {
+        display: flex;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    #menu__toggle {
+        opacity: 0;
+    }
+    #menu__toggle:checked + .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0deg);
+    }
+    #menu__toggle:checked + .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    #menu__toggle:checked ~ .menu__box {
+        left: 0 !important;
+    }
+    .menu__btn {
+        position: absolute;
+        top: 140px;
+        left: 1050px;
+        width: 150px;
+        height: 100px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        background-color: #000000;
+        transition-duration: .25s;
+    }
+    .menu__btn > span::before {
+        content: '';
+        top: -30px;
+    }
+    .menu__btn > span::after {
+        content: '';
+        top: 30px;
+    }
+    .menu__box {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 800px;
+        height: 1500px;
+        margin-left: 700px;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 20px 20px 60px rgba(0, 0, 0, .4);
+        transition-duration: .25s;
+    }
+    .menu__item {
+        display: block;
+        padding: 40px 24px;
+        color: #000000;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 60px;
+        line-height: 65px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    .menu__item_rot {
+        display: block;
+        transform: rotate(90deg);
+        color: #000000;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: 45px;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    .menu__item_rotENG {
+        display: block;
+        transform: rotate(90deg);
+        color: #000000;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-top: -30px;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    .menu__item_rotRU {
+        display: block;
+        transform: rotate(90deg);
+        margin-top: 400px;
+        color: #cccccc;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+}
