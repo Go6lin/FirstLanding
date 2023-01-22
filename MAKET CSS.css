@@ -7,6 +7,10 @@
         font-size: 18px;
         line-height: 30px;
     }
+    a {
+        color: black;
+        text-decoration: none;
+    }
     .specialH1 {
         font-family: 'Gilroy-Bold', sans-serif;
         font-size: 50px;
